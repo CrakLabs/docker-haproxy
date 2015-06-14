@@ -27,7 +27,6 @@ docker run -d -p 80:80 -e CONSUL_SERVER=X.X.X.X:8500 -e CONSUL_SERVICE_NAME=serv
 ## ToDo
 
 - Adding statsd module
-- Download consul-template and install it when we build image
 - Add support for more than one service (like HTTP and HTTPs for one service in the same instance)
 
 ## Credits
