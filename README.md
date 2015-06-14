@@ -10,11 +10,12 @@ This repository contains Dockerfile of Haproxy with consul-template and statsd s
 
 1. Install [Docker](https://www.docker.com/)
 2. Have a consul server running
-3. Download image from public [Crakmedia Docker Hub Registry](https://registry.hub.docker.com/repos/crakmedia/) `docker pull crakmedia/haproxy`
+3. Download image from public [Crakmedia Docker Hub Registry](https://registry.hub.docker.com/repos/crakmedia/) 
+	`docker pull crakmedia/haproxy`
 
 ## Usage
 
-docker run -d -p 80:80 -e CONSUL_SERVER=X.X.X.X:8500 -e CONSUL_SERVICE_NAME=service-name-80 crakmedia/haproxy
+`docker run -d -p 80:80 -e CONSUL_SERVER=X.X.X.X:8500 -e CONSUL_SERVICE_NAME=service-name-80 crakmedia/haproxy`
 
 ## Contributing
 
