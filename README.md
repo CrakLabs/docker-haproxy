@@ -15,7 +15,11 @@ This repository contains Dockerfile of Haproxy with consul-template and statsd s
 
 ## Usage
 
-`docker run -d -p 80:80 -e CONSUL_SERVER=X.X.X.X:8500 -e CONSUL_SERVICE_NAME=service-name-80 crakmedia/haproxy`
+`docker run \
+		-d -p 80:80 \
+		-e CONSUL_SERVER=X.X.X.X:8500 \
+		-e CONSUL_SERVICE_NAME=service-name-80 \
+		crakmedia/haproxy`
 
 ## Contributing
 
